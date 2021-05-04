@@ -1,10 +1,10 @@
-import React from 'react'
-import logo from './images/logo.svg'
-import { FaBars } from 'react-icons/fa'
-import { useGlobalContext } from './context'
+import React from "react";
+import logo from "./images/logo.svg";
+import { FaBars } from "react-icons/fa";
+import { useGlobalContext } from "./context";
 
 const Navbar = () => {
-  const {openSidebar, openSubmenu, closeSubmenu} = useGlobalContext()
+  const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
 
   return (
     <nav className="nav">
@@ -24,20 +24,16 @@ const Navbar = () => {
             </button>
           </li>
           <li>
-            <button className="link-btn">
-              developers
-            </button>
+            <button className="link-btn">developers</button>
           </li>
           <li>
-            <button className="link-btn">
-              company
-            </button>
+            <button className="link-btn">company</button>
           </li>
         </ul>
         <button className="btn signin-btn">Sign in</button>
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
