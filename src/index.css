@@ -244,6 +244,7 @@ Stripe Styles
   }
   .link-btn {
     height: 100%;
+    padding: 2rem;
     background: transparent;
     border-color: transparent;
     font-size: 1.1rem;
